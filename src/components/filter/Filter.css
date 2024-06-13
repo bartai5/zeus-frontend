@@ -1,0 +1,63 @@
+.property-filter{
+    margin-top: 3%;
+    width: 300px;
+    height: fit-content;
+    padding-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.filter-title{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 5px;
+    background: #1e293b;
+    color: #fff;
+}
+.filter-properties{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+.filter-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.filter-control label{
+    padding: 3px 0;
+    color: #333;
+}
+.price-range-input{
+    color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.price-range{
+    width: 45%;
+}
+.filter-btns{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.filter-button{
+    width: 95%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+.apply-filter{
+    background: #2563eb;
+    color: #fff;
+}
+.apply-filter:hover{
+    background: #1e40af;
+}

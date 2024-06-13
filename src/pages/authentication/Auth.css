@@ -1,0 +1,81 @@
+.auth{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.auth__form{
+    width: 500px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 5%;
+}
+.form--title{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #008080;
+}
+.form--title::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background: #008080;
+    left: 0;
+    bottom: -10px;
+    border-radius: 5px;
+}
+.form-element{
+    margin-top: 10px;
+}
+.form-element label{
+    font-size: 1.1rem;
+    color: #333;
+}
+.input-control{
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.input-control svg{
+    font-size: 1.2em;
+    margin: 5px ;
+}
+.input--text{
+    padding: 5px ;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.input-control:focus-within{
+    border: 1px solid #008080;
+}
+.form-btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn{
+    padding: 5px 40px;
+    background: #008080;
+    width: 90%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.submit-btn:hover{
+    background: #005454;
+}
+.auth__form--text{
+    margin-top: 20px;
+    text-align: center;
+}

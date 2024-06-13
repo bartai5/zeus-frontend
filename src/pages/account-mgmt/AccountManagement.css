@@ -1,0 +1,79 @@
+.account__mgmt-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8e3e3;
+}
+.mgmt-section{
+    width: 650px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2%;
+    box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.back-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+.manage-profile{
+    width: 100%;
+}
+.acc-mgmt-title{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #008080;
+    margin: 10px auto;
+}
+.acc-mgmt-title::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    bottom: -10px;
+    right: 0;
+    height: 5px;
+    background: #008080;
+    border-radius: 2px;
+}
+.form-elements{
+    margin: 30px 0;
+}
+.profile-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 20px;
+    gap: 20px;
+}
+.profile-button{
+    padding: 6px 60px;
+    border: none;
+    outline: none;
+    background: #008080;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.update-profile{
+    background: #2563eb;
+}
+.update-profile:hover{
+    background: #1d4ed8;
+}
+.delete-profile{
+    background: #dc2626;
+}
+.delete-profile:hover{
+    background: #b91c1c;
+}

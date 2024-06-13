@@ -1,0 +1,13 @@
+.home-section{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    background: #e6e1e1;
+    overflow-y: auto;
+    position: relative;
+}
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5%;
+}

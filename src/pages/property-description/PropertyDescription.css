@@ -1,0 +1,109 @@
+#propertyDesc {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2%;
+}
+.return-control {
+  margin: 10px 0;
+}
+.return-link {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  text-decoration: none;
+  padding: 2px 5px;
+}
+.return-link:hover {
+  text-decoration: underline;
+}
+.return-link svg {
+  margin-right: 5px;
+}
+.desc__container {
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+}
+.property-info {
+  margin: 10px 0;
+  color: #333;
+}
+.property-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 1.2em;
+}
+.gallery {
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100px;
+  height: 80px;
+  cursor: zoom-in;
+}
+.property-gallery-image {
+  width: 100%;
+  height: 100%;
+}
+.preview {
+  aspect-ratio: 16/9;
+  max-height: 450px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.current-image {
+  width: 100%;
+  height: 100%;
+}
+.s-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images-section-preview {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px auto;
+  max-width: 80%;
+  border-radius: 8px;
+}
+.s-preview img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+}
+
+.s-preview img.active {
+  transform: scale(1.3);
+  border: 2px solid #007bff;
+  border-radius: 0;
+}
+button.carousel-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.carousel-btns:hover {
+  background-color: #0056b3;
+}
